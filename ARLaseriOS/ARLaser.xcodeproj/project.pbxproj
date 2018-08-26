@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBD134A62131E1FD00C12426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD134A52131E1FD00C12426 /* AppDelegate.swift */; };
+		CBD134A82131E1FD00C12426 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD134A72131E1FD00C12426 /* ViewController.swift */; };
+		CBD134AB2131E1FD00C12426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD134A92131E1FD00C12426 /* Main.storyboard */; };
+		CBD134AD2131E20000C12426 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBD134AC2131E20000C12426 /* Assets.xcassets */; };
+		CBD134B02131E20000C12426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBD134AE2131E20000C12426 /* LaunchScreen.storyboard */; };
+		CBD134BB2131E20000C12426 /* ARLaserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD134BA2131E20000C12426 /* ARLaserTests.swift */; };
+		CBD134C62131E20000C12426 /* ARLaserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD134C52131E20000C12426 /* ARLaserUITests.swift */; };
+		CBD134D42131EC6900C12426 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD134D32131EC6900C12426 /* HomeScreenViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBD134B72131E20000C12426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBD1349A2131E1FD00C12426 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBD134A12131E1FD00C12426;
+			remoteInfo = ARLaser;
+		};
+		CBD134C22131E20000C12426 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBD1349A2131E1FD00C12426 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBD134A12131E1FD00C12426;
+			remoteInfo = ARLaser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBD134A22131E1FD00C12426 /* ARLaser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARLaser.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD134A52131E1FD00C12426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CBD134A72131E1FD00C12426 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CBD134AA2131E1FD00C12426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBD134AC2131E20000C12426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBD134AF2131E20000C12426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBD134B12131E20000C12426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD134B62131E20000C12426 /* ARLaserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARLaserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD134BA2131E20000C12426 /* ARLaserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLaserTests.swift; sourceTree = "<group>"; };
+		CBD134BC2131E20000C12426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD134C12131E20000C12426 /* ARLaserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARLaserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD134C52131E20000C12426 /* ARLaserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARLaserUITests.swift; sourceTree = "<group>"; };
+		CBD134C72131E20000C12426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD134D32131EC6900C12426 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBD1349F2131E1FD00C12426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD134B32131E20000C12426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD134BE2131E20000C12426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBD134992131E1FD00C12426 = {
+			isa = PBXGroup;
+			children = (
+				CBD134A42131E1FD00C12426 /* ARLaser */,
+				CBD134B92131E20000C12426 /* ARLaserTests */,
+				CBD134C42131E20000C12426 /* ARLaserUITests */,
+				CBD134A32131E1FD00C12426 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBD134A32131E1FD00C12426 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBD134A22131E1FD00C12426 /* ARLaser.app */,
+				CBD134B62131E20000C12426 /* ARLaserTests.xctest */,
+				CBD134C12131E20000C12426 /* ARLaserUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBD134A42131E1FD00C12426 /* ARLaser */ = {
+			isa = PBXGroup;
+			children = (
+				CBD134A52131E1FD00C12426 /* AppDelegate.swift */,
+				CBD134A72131E1FD00C12426 /* ViewController.swift */,
+				CBD134D32131EC6900C12426 /* HomeScreenViewController.swift */,
+				CBD134A92131E1FD00C12426 /* Main.storyboard */,
+				CBD134AC2131E20000C12426 /* Assets.xcassets */,
+				CBD134AE2131E20000C12426 /* LaunchScreen.storyboard */,
+				CBD134B12131E20000C12426 /* Info.plist */,
+			);
+			path = ARLaser;
+			sourceTree = "<group>";
+		};
+		CBD134B92131E20000C12426 /* ARLaserTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBD134BA2131E20000C12426 /* ARLaserTests.swift */,
+				CBD134BC2131E20000C12426 /* Info.plist */,
+			);
+			path = ARLaserTests;
+			sourceTree = "<group>";
+		};
+		CBD134C42131E20000C12426 /* ARLaserUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBD134C52131E20000C12426 /* ARLaserUITests.swift */,
+				CBD134C72131E20000C12426 /* Info.plist */,
+			);
+			path = ARLaserUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBD134A12131E1FD00C12426 /* ARLaser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD134CA2131E20000C12426 /* Build configuration list for PBXNativeTarget "ARLaser" */;
+			buildPhases = (
+				CBD1349E2131E1FD00C12426 /* Sources */,
+				CBD1349F2131E1FD00C12426 /* Frameworks */,
+				CBD134A02131E1FD00C12426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARLaser;
+			productName = ARLaser;
+			productReference = CBD134A22131E1FD00C12426 /* ARLaser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBD134B52131E20000C12426 /* ARLaserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD134CD2131E20000C12426 /* Build configuration list for PBXNativeTarget "ARLaserTests" */;
+			buildPhases = (
+				CBD134B22131E20000C12426 /* Sources */,
+				CBD134B32131E20000C12426 /* Frameworks */,
+				CBD134B42131E20000C12426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBD134B82131E20000C12426 /* PBXTargetDependency */,
+			);
+			name = ARLaserTests;
+			productName = ARLaserTests;
+			productReference = CBD134B62131E20000C12426 /* ARLaserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBD134C02131E20000C12426 /* ARLaserUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBD134D02131E20000C12426 /* Build configuration list for PBXNativeTarget "ARLaserUITests" */;
+			buildPhases = (
+				CBD134BD2131E20000C12426 /* Sources */,
+				CBD134BE2131E20000C12426 /* Frameworks */,
+				CBD134BF2131E20000C12426 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBD134C32131E20000C12426 /* PBXTargetDependency */,
+			);
+			name = ARLaserUITests;
+			productName = ARLaserUITests;
+			productReference = CBD134C12131E20000C12426 /* ARLaserUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBD1349A2131E1FD00C12426 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Justin May";
+				TargetAttributes = {
+					CBD134A12131E1FD00C12426 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CBD134B52131E20000C12426 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CBD134A12131E1FD00C12426;
+					};
+					CBD134C02131E20000C12426 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CBD134A12131E1FD00C12426;
+					};
+				};
+			};
+			buildConfigurationList = CBD1349D2131E1FD00C12426 /* Build configuration list for PBXProject "ARLaser" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBD134992131E1FD00C12426;
+			productRefGroup = CBD134A32131E1FD00C12426 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBD134A12131E1FD00C12426 /* ARLaser */,
+				CBD134B52131E20000C12426 /* ARLaserTests */,
+				CBD134C02131E20000C12426 /* ARLaserUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBD134A02131E1FD00C12426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD134B02131E20000C12426 /* LaunchScreen.storyboard in Resources */,
+				CBD134AD2131E20000C12426 /* Assets.xcassets in Resources */,
+				CBD134AB2131E1FD00C12426 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD134B42131E20000C12426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD134BF2131E20000C12426 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBD1349E2131E1FD00C12426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD134A82131E1FD00C12426 /* ViewController.swift in Sources */,
+				CBD134A62131E1FD00C12426 /* AppDelegate.swift in Sources */,
+				CBD134D42131EC6900C12426 /* HomeScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD134B22131E20000C12426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD134BB2131E20000C12426 /* ARLaserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBD134BD2131E20000C12426 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD134C62131E20000C12426 /* ARLaserUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBD134B82131E20000C12426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBD134A12131E1FD00C12426 /* ARLaser */;
+			targetProxy = CBD134B72131E20000C12426 /* PBXContainerItemProxy */;
+		};
+		CBD134C32131E20000C12426 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBD134A12131E1FD00C12426 /* ARLaser */;
+			targetProxy = CBD134C22131E20000C12426 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBD134A92131E1FD00C12426 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD134AA2131E1FD00C12426 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBD134AE2131E20000C12426 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBD134AF2131E20000C12426 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBD134C82131E20000C12426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBD134C92131E20000C12426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBD134CB2131E20000C12426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8D8S8BR4K;
+				INFOPLIST_FILE = ARLaser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARLaser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBD134CC2131E20000C12426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8D8S8BR4K;
+				INFOPLIST_FILE = ARLaser/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARLaser;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CBD134CE2131E20000C12426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARLaserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARLaserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARLaser.app/ARLaser";
+			};
+			name = Debug;
+		};
+		CBD134CF2131E20000C12426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARLaserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARLaserTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARLaser.app/ARLaser";
+			};
+			name = Release;
+		};
+		CBD134D12131E20000C12426 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARLaserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARLaserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARLaser;
+			};
+			name = Debug;
+		};
+		CBD134D22131E20000C12426 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ARLaserUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ARLaserUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARLaser;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBD1349D2131E1FD00C12426 /* Build configuration list for PBXProject "ARLaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD134C82131E20000C12426 /* Debug */,
+				CBD134C92131E20000C12426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD134CA2131E20000C12426 /* Build configuration list for PBXNativeTarget "ARLaser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD134CB2131E20000C12426 /* Debug */,
+				CBD134CC2131E20000C12426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD134CD2131E20000C12426 /* Build configuration list for PBXNativeTarget "ARLaserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD134CE2131E20000C12426 /* Debug */,
+				CBD134CF2131E20000C12426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBD134D02131E20000C12426 /* Build configuration list for PBXNativeTarget "ARLaserUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBD134D12131E20000C12426 /* Debug */,
+				CBD134D22131E20000C12426 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBD1349A2131E1FD00C12426 /* Project object */;
+}

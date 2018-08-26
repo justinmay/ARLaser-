@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cGx-80-lzH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ARLaser" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N3y-6T-WnU">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                            </arscnView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Health 98%" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sb8-op-irS">
+                                <rect key="frame" x="197" y="20" width="178" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="8nX-fT-pPC"/>
+                                    <constraint firstAttribute="width" constant="178" id="l3H-2H-IyW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="34"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sb8-op-irS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="4Dq-gG-857"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="N3y-6T-WnU" secondAttribute="bottom" id="RZ1-TD-1QG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="N3y-6T-WnU" secondAttribute="trailing" id="cU7-dT-5Sv"/>
+                            <constraint firstItem="N3y-6T-WnU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="gnq-f1-uUG"/>
+                            <constraint firstItem="sb8-op-irS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="jvr-2v-5UY"/>
+                            <constraint firstItem="N3y-6T-WnU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nUD-fj-Z8Z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="sceneView" destination="N3y-6T-WnU" id="61K-uw-mFb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="103" y="45"/>
+        </scene>
+        <!--Home Screen View Controller-->
+        <scene sceneID="c5c-Yg-fwU">
+            <objects>
+                <viewController id="cGx-80-lzH" customClass="HomeScreenViewController" customModule="ARLaser" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hmC-JA-idd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ARLaser" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rWg-iI-Rwk">
+                                <rect key="frame" x="95" y="300" width="184" height="66"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="48"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djR-xj-z5b">
+                                <rect key="frame" x="163" y="436" width="48" height="36"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-UltraLight" family="Avenir Next" pointSize="17"/>
+                                <state key="normal" title="START">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="wjy-XA-tIo"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fAH-w1-HVP">
+                                <rect key="frame" x="163" y="515" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="onTintColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="djR-xj-z5b" firstAttribute="top" secondItem="rWg-iI-Rwk" secondAttribute="bottom" constant="70" id="Akb-v9-PIV"/>
+                            <constraint firstItem="rWg-iI-Rwk" firstAttribute="centerX" secondItem="hmC-JA-idd" secondAttribute="centerX" id="FfZ-M0-O1x"/>
+                            <constraint firstItem="djR-xj-z5b" firstAttribute="centerX" secondItem="hmC-JA-idd" secondAttribute="centerX" id="nkV-7c-ekg"/>
+                            <constraint firstItem="rWg-iI-Rwk" firstAttribute="centerY" secondItem="hmC-JA-idd" secondAttribute="centerY" id="wf3-vj-mRd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yg6-qs-ps3"/>
+                    </view>
+                    <connections>
+                        <outlet property="TeamSwitch" destination="fAH-w1-HVP" id="r8M-js-hHx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qS0-IM-H10" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-639" y="45"/>
+        </scene>
+    </scenes>
+</document>
